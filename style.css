@@ -300,11 +300,15 @@ body {
     gap: 33px;
     margin-top: 1rem;
 }
-.source span{
+.source span {
     display: flex;
     align-items: center;
     gap: 6px;
     cursor: pointer;
+}
+.source  a {
+   color: black;
+   text-decoration: none;
 }
 .source span:hover{
     color: blue;
